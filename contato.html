@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lar Amigo - Contato</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>ONG Lar Amigo</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="adote.html">Quero Adotar</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Entre em Contato</h2>
+        <p>Tem interesse em adotar, doar ou ser voluntário? Preencha o formulário abaixo.</p>
+        
+        <form class="form-contato">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" placeholder="seu@email.com" required>
+
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" rows="5" placeholder="Como você deseja ajudar?" required></textarea>
+
+            <button type="submit" class="btn-enviar">Enviar Mensagem</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Lar Amigo - Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
